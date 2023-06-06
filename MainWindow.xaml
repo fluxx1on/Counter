@@ -1,0 +1,29 @@
+﻿<Window x:Class="Counter.MainWindow" KeyDown="Event" SizeChanged="Ev" x:Name="Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Counter"
+        mc:Ignorable="d"
+        Title="MainWindow" Background="#000000">
+    <Grid>
+        <TextBlock x:Name="HourCounter" VerticalAlignment="Center" Text="01" Margin="-400, 0, 0, 0" FontFamily="Galiver Sans/#Galiver Sans"
+                  TextDecorations="" HorizontalAlignment="Center" FontSize="150" Foreground="White">
+        </TextBlock>
+        <TextBlock x:Name="MinuteCounter" VerticalAlignment="Center" Text="59" Margin="0, 0, 0, 0" FontFamily="Galiver Sans/#Galiver Sans"
+                  TextDecorations="" HorizontalAlignment="Center" FontSize="150" Foreground="White">
+        </TextBlock>
+        <TextBlock x:Name="SecondCounter" VerticalAlignment="Center" Text="59" Margin="400, 0, 0, 0" FontFamily="Galiver Sans/#Galiver Sans"
+                  TextDecorations="" HorizontalAlignment="Center" FontSize="150" Foreground="White">
+        </TextBlock>
+        <TextBlock x:Name="text1"  VerticalAlignment="Center" Text="часов" Margin="-408, 140, 0, 0" FontFamily="Galiver Sans/#Galiver Sans"
+                  TextDecorations="" HorizontalAlignment="Center" FontSize="37.5" Foreground="White">
+        </TextBlock>
+        <TextBlock x:Name="text2" VerticalAlignment="Center" Text="минут" Margin="-6, 140, 0, 0" FontFamily="Galiver Sans/#Galiver Sans"
+                  TextDecorations="" HorizontalAlignment="Center" FontSize="37.5" Foreground="White">
+        </TextBlock>
+        <TextBlock x:Name="text3" VerticalAlignment="Center" Text="секунд" Margin="395, 140, 0, 0" FontFamily="Galiver Sans/#Galiver Sans"
+                  TextDecorations="" HorizontalAlignment="Center" FontSize="37.5" Foreground="White">
+        </TextBlock>
+    </Grid>
+</Window>

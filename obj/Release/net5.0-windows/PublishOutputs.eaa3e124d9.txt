@@ -1,0 +1,5 @@
+C:\Project\Работа\Zakaz\Counter\bin\Release\net5.0-windows\publish\Counter.exe
+C:\Project\Работа\Zakaz\Counter\bin\Release\net5.0-windows\publish\Counter.dll
+C:\Project\Работа\Zakaz\Counter\bin\Release\net5.0-windows\publish\Counter.deps.json
+C:\Project\Работа\Zakaz\Counter\bin\Release\net5.0-windows\publish\Counter.runtimeconfig.json
+C:\Project\Работа\Zakaz\Counter\bin\Release\net5.0-windows\publish\Counter.pdb
